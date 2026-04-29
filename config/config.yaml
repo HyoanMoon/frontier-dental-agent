@@ -1,0 +1,47 @@
+# Frontier Dental Scraper — runtime configuration
+# Everything that controls *what* and *how* the scraper runs lives here.
+# No code changes are required to retarget categories, tune rate limits, or
+# toggle the LLM fallback layer.
+
+site:
+  base_url: "https://www.safcodental.com"
+  robots_txt_url: "https://www.safcodental.com/robots.txt"
+  user_agent: "FrontierDentalScraper/0.1 (+take-home-prototype)"
+
+# Seed categories the navigator will discover via the Algolia categories index.
+# Free-text strings are resolved to exact facet paths at runtime.
+crawler:
+  seeds:
+    - "Dental Exam Gloves"
+    - "Sutures & surgical products"
+  hits_per_page: 100        # Algolia max-effective per page
+  max_pages_per_category: 20
+
+# Two independent token buckets so a slow product-page tier can't starve
+# the fast Algolia tier (or vice-versa).
+rate_limits:
+  algolia: { rate_per_sec: 5, burst: 10 }
+  safco:   { rate_per_sec: 2, burst: 5 }
+
+retry:
+  max_attempts: 5
+  initial_backoff_sec: 1
+  max_backoff_sec: 30
+
+llm:
+  enabled: true                              # set false to disable Layer 4 entirely
+  model: "claude-haiku-4-5-20251001"
+  max_calls_per_run: 500                     # hard cost circuit-breaker
+  fallback_only: true                        # never as primary extractor
+  max_input_chars: 8000                      # truncate HTML excerpts before sending
+
+storage:
+  sqlite_path: "output/products.db"
+  exports:
+    json: "output/products.json"
+    csv:  "output/products.csv"
+
+logging:
+  level: "INFO"
+  format: "json"                             # set "console" for human-friendly local dev
+  file: "output/run.log.jsonl"

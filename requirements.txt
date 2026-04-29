@@ -1,0 +1,9 @@
+requests>=2.32
+beautifulsoup4>=4.12
+anthropic>=0.40
+python-dotenv>=1.0
+pydantic>=2.6
+pydantic-settings>=2.2
+PyYAML>=6.0
+tenacity>=8.2
+structlog>=24.1

@@ -1,0 +1,34 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual env
+venv/
+.venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+.claude/
+
+# Output (we keep curated samples but not raw run artifacts)
+output/products.db
+output/products.db-journal
+output/products.db-wal
+output/products.db-shm
+output/*.log
+output/*.jsonl
+output/run_*/
+
+# Allow committed sample exports
+!output/products.json
+!output/products.csv
