@@ -1,0 +1,430 @@
+[
+  {
+    "sku": "1027972",
+    "name": "Nitrilex Black nitrile gloves x-small 200/box",
+    "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+    "manufacturer": "Safco",
+    "categories": [
+      "Dental Supplies",
+      "Dental Exam Gloves",
+      "Nitrile gloves"
+    ],
+    "price_amount": 13.29,
+    "price_currency": "USD",
+    "price_formatted": "$13.29",
+    "pack_size": "200/box",
+    "stock": "in_stock",
+    "description": "Powder-free nitrile exam gloves.\r\nOur strongest and thinnest nitrile glove yet. Designed to preserve the sensitivity you have come to expect from the Nitrilex line of gloves.\r\n\r\nTextured fingertip finish\r\nBeaded cuff\r\nNon-chlorinated\r\nAmbidextreous\r\nBlack color\r\nPolymer coated for easy donning\r\nThickness: at palm 2.0 mils; at fingertip 2.3 mils\r\n200 gloves per box\r\nOrder 10 boxes to purchase a case",
+    "specifications": {
+      "Material": "Nitrile",
+      "Powder-free": "Yes",
+      "Color": "Black",
+      "Textured fingertip finish": "Yes",
+      "Cuff style": "Beaded cuff",
+      "Chlorinated": "No",
+      "Ambidextrous": "Yes",
+      "Polymer coated": "Yes",
+      "Thickness at palm": "2.0 mils",
+      "Thickness at fingertip": "2.3 mils",
+      "Gloves per box": "200",
+      "Minimum order": "10 boxes per case"
+    },
+    "images": [
+      "https://www.safcodental.com/media/catalog/product/placeholder/default/white-placeholder_4.jpg?optimize=medium&fit=bounds&height=265&width=265",
+      "https://www.safcodental.com/media/catalog/product/placeholder/default/white-placeholder_6.jpg?optimize=medium&fit=bounds&height=75&width=75",
+      "https://www.safcodental.com/media/catalog/product/d/r/drccx.jpg?width=265&height=265&canvas=265,265&optimize=medium&fit=bounds"
+    ],
+    "alternatives": [
+      {
+        "sku": "1027980",
+        "name": "Nitrilex Black nitrile gloves x-large 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "DRCCX",
+        "name": "Safco Nitrilex Black",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027978",
+        "name": "Nitrilex Black nitrile gloves large 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027976",
+        "name": "Nitrilex Black nitrile gloves medium 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027974",
+        "name": "Nitrilex Black nitrile gloves small 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      }
+    ],
+    "additional_skus": [],
+    "source_layer": {
+      "name": "algolia",
+      "sku": "algolia",
+      "url": "algolia",
+      "manufacturer": "algolia",
+      "categories": "algolia",
+      "price": "algolia",
+      "stock": "algolia",
+      "images": "algolia",
+      "alternatives": "algolia",
+      "description": "jsonld",
+      "pack_size": "html",
+      "specifications": "llm"
+    },
+    "scraped_at": "2026-04-29T01:36:42.265213",
+    "last_seen_at": "2026-04-29T01:58:06.117724"
+  },
+  {
+    "sku": "1027974",
+    "name": "Nitrilex Black nitrile gloves small 200/box",
+    "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+    "manufacturer": "Safco",
+    "categories": [
+      "Dental Supplies",
+      "Dental Exam Gloves",
+      "Nitrile gloves"
+    ],
+    "price_amount": 13.29,
+    "price_currency": "USD",
+    "price_formatted": "$13.29",
+    "pack_size": "200/box",
+    "stock": "in_stock",
+    "description": "Powder-free nitrile exam gloves.\r\nOur strongest and thinnest nitrile glove yet. Designed to preserve the sensitivity you have come to expect from the Nitrilex line of gloves.\r\n\r\nTextured fingertip finish\r\nBeaded cuff\r\nNon-chlorinated\r\nAmbidextreous\r\nBlack color\r\nPolymer coated for easy donning\r\nThickness: at palm 2.0 mils; at fingertip 2.3 mils\r\n200 gloves per box\r\nOrder 10 boxes to purchase a case",
+    "specifications": {
+      "Material": "Nitrile",
+      "Type": "Exam gloves",
+      "Powder-free": "Yes",
+      "Color": "Black",
+      "Fingertip Finish": "Textured",
+      "Cuff Style": "Beaded cuff",
+      "Chlorinated": "No",
+      "Ambidextrous": "Yes",
+      "Coating": "Polymer coated",
+      "Thickness at Palm": "2.0 mils",
+      "Thickness at Fingertip": "2.3 mils",
+      "Count per Box": "200 gloves",
+      "Minimum Order": "10 boxes per case"
+    },
+    "images": [
+      "https://www.safcodental.com/media/catalog/product/placeholder/default/white-placeholder_4.jpg?optimize=medium&fit=bounds&height=265&width=265",
+      "https://www.safcodental.com/media/catalog/product/placeholder/default/white-placeholder_6.jpg?optimize=medium&fit=bounds&height=75&width=75",
+      "https://www.safcodental.com/media/catalog/product/d/r/drccx.jpg?width=265&height=265&canvas=265,265&optimize=medium&fit=bounds"
+    ],
+    "alternatives": [
+      {
+        "sku": "1027980",
+        "name": "Nitrilex Black nitrile gloves x-large 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "DRCCX",
+        "name": "Safco Nitrilex Black",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027978",
+        "name": "Nitrilex Black nitrile gloves large 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027976",
+        "name": "Nitrilex Black nitrile gloves medium 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027972",
+        "name": "Nitrilex Black nitrile gloves x-small 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      }
+    ],
+    "additional_skus": [],
+    "source_layer": {
+      "name": "algolia",
+      "sku": "algolia",
+      "url": "algolia",
+      "manufacturer": "algolia",
+      "categories": "algolia",
+      "price": "algolia",
+      "stock": "algolia",
+      "images": "algolia",
+      "alternatives": "algolia",
+      "description": "jsonld",
+      "pack_size": "html",
+      "specifications": "llm"
+    },
+    "scraped_at": "2026-04-29T01:36:42.265196",
+    "last_seen_at": "2026-04-29T01:58:06.117618"
+  },
+  {
+    "sku": "1027976",
+    "name": "Nitrilex Black nitrile gloves medium 200/box",
+    "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+    "manufacturer": "Safco",
+    "categories": [
+      "Dental Supplies",
+      "Dental Exam Gloves",
+      "Nitrile gloves"
+    ],
+    "price_amount": 13.29,
+    "price_currency": "USD",
+    "price_formatted": "$13.29",
+    "pack_size": "200/box",
+    "stock": "in_stock",
+    "description": "Powder-free nitrile exam gloves.\r\nOur strongest and thinnest nitrile glove yet. Designed to preserve the sensitivity you have come to expect from the Nitrilex line of gloves.\r\n\r\nTextured fingertip finish\r\nBeaded cuff\r\nNon-chlorinated\r\nAmbidextreous\r\nBlack color\r\nPolymer coated for easy donning\r\nThickness: at palm 2.0 mils; at fingertip 2.3 mils\r\n200 gloves per box\r\nOrder 10 boxes to purchase a case",
+    "specifications": {
+      "Type": "Nitrile exam gloves",
+      "Material": "Nitrile",
+      "Powder-free": "Yes",
+      "Color": "Black",
+      "Texture": "Textured fingertip finish",
+      "Cuff Style": "Beaded cuff",
+      "Chlorinated": "No",
+      "Ambidextrous": "Yes",
+      "Coating": "Polymer coated for easy donning",
+      "Thickness at Palm": "2.0 mils",
+      "Thickness at Fingertip": "2.3 mils",
+      "Gloves per Box": "200",
+      "Minimum Order": "10 boxes for case purchase"
+    },
+    "images": [
+      "https://www.safcodental.com/media/catalog/product/placeholder/default/white-placeholder_4.jpg?optimize=medium&fit=bounds&height=265&width=265",
+      "https://www.safcodental.com/media/catalog/product/placeholder/default/white-placeholder_6.jpg?optimize=medium&fit=bounds&height=75&width=75",
+      "https://www.safcodental.com/media/catalog/product/d/r/drccx.jpg?width=265&height=265&canvas=265,265&optimize=medium&fit=bounds"
+    ],
+    "alternatives": [
+      {
+        "sku": "1027980",
+        "name": "Nitrilex Black nitrile gloves x-large 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "DRCCX",
+        "name": "Safco Nitrilex Black",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027978",
+        "name": "Nitrilex Black nitrile gloves large 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027974",
+        "name": "Nitrilex Black nitrile gloves small 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027972",
+        "name": "Nitrilex Black nitrile gloves x-small 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      }
+    ],
+    "additional_skus": [],
+    "source_layer": {
+      "name": "algolia",
+      "sku": "algolia",
+      "url": "algolia",
+      "manufacturer": "algolia",
+      "categories": "algolia",
+      "price": "algolia",
+      "stock": "algolia",
+      "images": "algolia",
+      "alternatives": "algolia",
+      "description": "jsonld",
+      "pack_size": "html",
+      "specifications": "llm"
+    },
+    "scraped_at": "2026-04-29T01:36:42.265177",
+    "last_seen_at": "2026-04-29T01:58:06.117511"
+  },
+  {
+    "sku": "1027978",
+    "name": "Nitrilex Black nitrile gloves large 200/box",
+    "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+    "manufacturer": "Safco",
+    "categories": [
+      "Dental Supplies",
+      "Dental Exam Gloves",
+      "Nitrile gloves"
+    ],
+    "price_amount": 13.29,
+    "price_currency": "USD",
+    "price_formatted": "$13.29",
+    "pack_size": "200/box",
+    "stock": "in_stock",
+    "description": "Powder-free nitrile exam gloves.\r\nOur strongest and thinnest nitrile glove yet. Designed to preserve the sensitivity you have come to expect from the Nitrilex line of gloves.\r\n\r\nTextured fingertip finish\r\nBeaded cuff\r\nNon-chlorinated\r\nAmbidextreous\r\nBlack color\r\nPolymer coated for easy donning\r\nThickness: at palm 2.0 mils; at fingertip 2.3 mils\r\n200 gloves per box\r\nOrder 10 boxes to purchase a case",
+    "specifications": {
+      "Material": "Nitrile",
+      "Type": "Exam gloves",
+      "Color": "Black",
+      "Powder-free": "Yes",
+      "Textured fingertip finish": "Yes",
+      "Beaded cuff": "Yes",
+      "Non-chlorinated": "Yes",
+      "Ambidextrous": "Yes",
+      "Polymer coated": "Yes",
+      "Thickness at palm": "2.0 mils",
+      "Thickness at fingertip": "2.3 mils",
+      "Gloves per box": "200",
+      "Boxes per case": "10"
+    },
+    "images": [
+      "https://www.safcodental.com/media/catalog/product/placeholder/default/white-placeholder_4.jpg?optimize=medium&fit=bounds&height=265&width=265",
+      "https://www.safcodental.com/media/catalog/product/placeholder/default/white-placeholder_6.jpg?optimize=medium&fit=bounds&height=75&width=75",
+      "https://www.safcodental.com/media/catalog/product/d/r/drccx.jpg?width=265&height=265&canvas=265,265&optimize=medium&fit=bounds"
+    ],
+    "alternatives": [
+      {
+        "sku": "1027980",
+        "name": "Nitrilex Black nitrile gloves x-large 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "DRCCX",
+        "name": "Safco Nitrilex Black",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027976",
+        "name": "Nitrilex Black nitrile gloves medium 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027974",
+        "name": "Nitrilex Black nitrile gloves small 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027972",
+        "name": "Nitrilex Black nitrile gloves x-small 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      }
+    ],
+    "additional_skus": [],
+    "source_layer": {
+      "name": "algolia",
+      "sku": "algolia",
+      "url": "algolia",
+      "manufacturer": "algolia",
+      "categories": "algolia",
+      "price": "algolia",
+      "stock": "algolia",
+      "images": "algolia",
+      "alternatives": "algolia",
+      "description": "jsonld",
+      "pack_size": "html",
+      "specifications": "llm"
+    },
+    "scraped_at": "2026-04-29T01:36:42.265153",
+    "last_seen_at": "2026-04-29T01:58:06.117318"
+  },
+  {
+    "sku": "1027980",
+    "name": "Nitrilex Black nitrile gloves x-large 200/box",
+    "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+    "manufacturer": "Safco",
+    "categories": [
+      "Dental Supplies",
+      "Dental Exam Gloves",
+      "Nitrile gloves"
+    ],
+    "price_amount": 13.29,
+    "price_currency": "USD",
+    "price_formatted": "$13.29",
+    "pack_size": "200/box",
+    "stock": "in_stock",
+    "description": "Powder-free nitrile exam gloves.\r\nOur strongest and thinnest nitrile glove yet. Designed to preserve the sensitivity you have come to expect from the Nitrilex line of gloves.\r\n\r\nTextured fingertip finish\r\nBeaded cuff\r\nNon-chlorinated\r\nAmbidextreous\r\nBlack color\r\nPolymer coated for easy donning\r\nThickness: at palm 2.0 mils; at fingertip 2.3 mils\r\n200 gloves per box\r\nOrder 10 boxes to purchase a case",
+    "specifications": {
+      "Material": "Nitrile",
+      "Powder-free": "Yes",
+      "Color": "Black",
+      "Textured fingertip finish": "Yes",
+      "Cuff type": "Beaded cuff",
+      "Chlorinated": "No",
+      "Ambidextrous": "Yes",
+      "Polymer coated": "Yes",
+      "Thickness at palm": "2.0 mils",
+      "Thickness at fingertip": "2.3 mils",
+      "Gloves per box": "200",
+      "Minimum order": "10 boxes per case"
+    },
+    "images": [
+      "https://www.safcodental.com/media/catalog/product/placeholder/default/white-placeholder_4.jpg?optimize=medium&fit=bounds&height=265&width=265",
+      "https://www.safcodental.com/media/catalog/product/placeholder/default/white-placeholder_6.jpg?optimize=medium&fit=bounds&height=75&width=75",
+      "https://www.safcodental.com/media/catalog/product/d/r/drccx.jpg?width=265&height=265&canvas=265,265&optimize=medium&fit=bounds"
+    ],
+    "alternatives": [
+      {
+        "sku": "DRCCX",
+        "name": "Safco Nitrilex Black",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027978",
+        "name": "Nitrilex Black nitrile gloves large 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027976",
+        "name": "Nitrilex Black nitrile gloves medium 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027974",
+        "name": "Nitrilex Black nitrile gloves small 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      },
+      {
+        "sku": "1027972",
+        "name": "Nitrilex Black nitrile gloves x-small 200/box",
+        "url": "https://www.safcodental.com/product/safco-nitrilex-black",
+        "relation": "variation"
+      }
+    ],
+    "additional_skus": [],
+    "source_layer": {
+      "name": "algolia",
+      "sku": "algolia",
+      "url": "algolia",
+      "manufacturer": "algolia",
+      "categories": "algolia",
+      "price": "algolia",
+      "stock": "algolia",
+      "images": "algolia",
+      "alternatives": "algolia",
+      "description": "jsonld",
+      "pack_size": "html",
+      "specifications": "llm"
+    },
+    "scraped_at": "2026-04-29T01:36:42.263657",
+    "last_seen_at": "2026-04-29T01:58:06.095951"
+  }
+]
