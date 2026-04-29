@@ -8,11 +8,16 @@ filled each Product so downstream readers can audit provenance.
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timezone
 from enum import Enum
 from typing import Any
 
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl
+
+
+def _utcnow() -> datetime:
+    """Timezone-aware UTC now (replaces deprecated datetime.utcnow)."""
+    return datetime.now(timezone.utc)
 
 
 class StockStatus(str, Enum):
@@ -109,7 +114,7 @@ class Product(BaseModel):
         description="Maps each filled field name to the layer that produced it: "
         "'algolia' | 'jsonld' | 'html' | 'llm'.",
     )
-    scraped_at: datetime = Field(default_factory=datetime.utcnow)
+    scraped_at: datetime = Field(default_factory=_utcnow)
 
     def merge_from(self, other: "Product", layer: str) -> None:
         """Fill any None/empty fields on self with values from other.

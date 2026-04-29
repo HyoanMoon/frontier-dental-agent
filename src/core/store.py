@@ -14,12 +14,16 @@ import csv
 import json
 import sqlite3
 from contextlib import contextmanager
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterator
 
 from src.core.logger import get_logger
 from src.core.schema import Product
+
+
+def _utcnow_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
 
 log = get_logger(__name__)
 
@@ -76,7 +80,7 @@ class Store:
     # ── product upsert ──────────────────────────────────────────────────
 
     def upsert_product(self, p: Product) -> None:
-        now = datetime.utcnow().isoformat()
+        now = _utcnow_iso()
         row = {
             "sku": p.sku,
             "name": p.name,
@@ -168,7 +172,7 @@ class Store:
                 status,
                 last_url,
                 error,
-                datetime.utcnow().isoformat(),
+                _utcnow_iso(),
             ),
         )
         self.conn.commit()

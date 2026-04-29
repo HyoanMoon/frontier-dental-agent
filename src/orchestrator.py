@@ -216,9 +216,13 @@ class Orchestrator:
             # per-URL detail-extraction passes; this is documented as a future
             # extension in the README rather than implemented here. Fail fast
             # and surface the error so the operator can investigate.
+            #
+            # The category-page slug heuristic below is best-effort. Real
+            # production code would carry the canonical category URL through
+            # the navigator instead of reconstructing it.
             try:
-                slug = target.path.split("///")[-1].strip().lower()
-                slug = slug.replace(" & ", "-").replace(" ", "-")
+                leaf = target.path.split(" /// ")[-1].strip().lower()
+                slug = leaf.replace(" & ", "-").replace(" ", "-")
                 urls = self.recovery.jsonld_subcategory_urls(
                     f"{self.cfg.site.base_url}/catalog/{slug}"
                 )
