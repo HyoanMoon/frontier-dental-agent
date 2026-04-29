@@ -1,0 +1,24 @@
+# Don't bake secrets or local state into images.
+.env
+.git
+.gitignore
+
+# Local Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Run artifacts — these belong on a mounted volume, not in the image.
+output/
+samples/
+*.log
+*.jsonl
