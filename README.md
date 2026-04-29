@@ -121,7 +121,7 @@ LLM in the hot path.
 | Module | Responsibility | Spec mapping |
 |---|---|---|
 | `agents/navigator.py` | Resolves free-text seed names (e.g. "Dental Exam Gloves") to concrete Algolia facet filters by discovering available `categories.level1` values via the products index. Demonstrates the spec's "navigation reasoning" capability. | navigator agent |
-| `agents/classifier.py` | Heuristic-first page classifier (regex over JSON-LD type) with an LLM fallback for irregular pages. 99 %+ of calls never reach the LLM. | page classifier |
+| `agents/classifier.py` | Heuristic-first page classifier (regex over JSON-LD type) with an LLM fallback for irregular pages. **Architectural hook only** — instantiated by the orchestrator but not invoked in the default Algolia-driven run, since the Algolia path returns canonical product hits and bypasses page-type discovery. Wired so a generic-crawler fallback (e.g. when the JSON-LD subcategory recovery in `recovery.py` is wired through to product extraction) can plug it in without restructuring. | page classifier |
 | `agents/extractor_algolia.py` | Layer 1 — primary extractor. Maps an Algolia hit to a canonical `Product`; covers ~80 % of fields. | extractor agent |
 | `agents/extractor_detail.py` | Layers 2/3/4 — fallback chain. Parses JSON-LD on the product page, falls back to HTML/bs4 selectors, falls back to LLM for the residual gaps (pack size, spec table). | extractor agent + LLM fallback |
 | `agents/validator.py` | Pydantic schema validation, SKU-keyed deduplication with merge-on-conflict, missing-field quality report. | validator / deduplicator |
@@ -400,6 +400,11 @@ mitigation that would lift it.
   the *whole* category is paid again. A production extension would
   checkpoint at the per-product level (e.g. one row per processed SKU
   inside `crawl_state`) to make mid-category resumes truly free.
+- **`Store.pending_state()` is reserved for that future per-product
+  checkpoint.** It returns rows whose status is `pending` /
+  `in_progress` / `failed`, but no caller in the prototype reads it; the
+  orchestrator only consults `done_categories()`. Kept as a public API so
+  a per-product resume can plug in without a schema change.
 
 ### Recovery / fallback paths (be honest about stubs)
 - **Algolia → JSON-LD recovery is a URL-collection stub, not a hardened
